@@ -1,0 +1,124 @@
+
+.back{
+    background-image: url(../img/events-heavenly-header.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.layer{
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+}
+.nav{
+    
+    width: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #111111;
+    position: fixed;
+    z-index: 99;
+}
+.exit-icon{
+    right: 10px;
+    top: 25px;
+    
+}
+
+.title{
+    top: 50%;
+    transform: translateY(-100%);
+}
+.open-nav{
+    top: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+}
+.exit-icon:hover{
+    color: #61221b;
+}
+a:hover{
+    color: #61221b;
+}
+/*================================ */
+
+.toggle{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+.inner{
+    background-color: rgb(204, 204, 204);
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+#sliderDown div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#sliderDown .first{
+    display: block ;
+}
+
+/* ================ */
+#counter{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+
+/* ============= */
+.social-list i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;;
+    border: solid 1px #777;
+    text-align: center;
+}
+.social-list i:hover{
+    border: solid 1px rgb(185, 38, 38);
+    background-color: rgb(185, 38, 38);
+    color: white;
+}
+.input-lg{
+    height: 200px;
+    resize: vertical;
+}
+.btn{
+    display: block;
+    margin-top: 20px;
+    background-color:rgb(185, 38, 38); 
+    color: white;
+}
+#chars{
+    color:rgb(185, 38, 38); 
+    font-size: 20px;
+}
+
+
+
+/* =============================================================== */
+
+
